@@ -26,7 +26,7 @@ Projeyi klonlayın
 Proje dizinine gidin
 
 ```bash
-  cd vpn_app
+  cd flutter_vpn_app
 ```
 
 Gerekli paketleri yükleyin
