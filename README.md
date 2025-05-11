@@ -20,7 +20,7 @@ Uygulama her açıldığında mock data'daki 'Netherlands' ülkesine bağlı gö
 Projeyi klonlayın
 
 ```bash
-  git clone https://github.com/kullaniciadi/vpn_app.git
+  git clone https://github.com/edanurhamurcu/flutter_vpn_app.git
 ```
 
 Proje dizinine gidin
@@ -89,17 +89,21 @@ Bu mimari ve kullanılan araçlar, hem kullanıcı deneyimini hem de geliştiric
   
 ## 📦 Dependencies (Bağımlılıklar)
 
-[flutter_riverpod](https://pub.dev/packages/flutter_riverpod) : State management için kullanılmıştır.
-
-[flutter_localizations](https://pub.dev/packages/flutter_localization) , [intl](https://pub.dev/packages/intl) : Localization ve tarih/saat formatlama işlemleri için kullanılmıştır.
-
 [lottie](https://pub.dev/packages/lottie) : Bağlantı animasyonları için kullanılmıştır.
 
-[shared_preferences](https://pub.dev/packages/shared_preferences) : Kullanıcının tema ve dil tercihlerini cihaza kaydetmek ve uygulama yeniden başlatıldığında bu tercihleri yüklemek için kullanılmıştır.
+[flutter_riverpod](https://pub.dev/packages/flutter_riverpod) : State management için kullanılmıştır.
 
 [flutter_svg](https://pub.dev/packages/flutter_svg) : SVG formatındaki bayrak görsellerini göstermek için kullanılmıştır.
 
-[flutter_launcher_icons](https://pub.dev/packages/flutter_launcher_icons) : Uygulama ikonunu kolayca özelleştirmek ve hem Android hem de iOS platformlarında kullanmak için kullanılmıştr.. 
+[flutter_localizations](https://pub.dev/packages/flutter_localization) , [intl](https://pub.dev/packages/intl) : Localization ve tarih/saat formatlama işlemleri için kullanılmıştır.
+
+[flutter_launcher_icons](https://pub.dev/packages/flutter_launcher_icons) : Uygulama ikonunu kolayca özelleştirmek ve hem Android hem de iOS platformlarında kullanmak için kullanılmıştr.
+
+[shared_preferences](https://pub.dev/packages/shared_preferences) : Kullanıcının tema ve dil tercihlerini cihaza kaydetmek ve uygulama yeniden başlatıldığında bu tercihleri yüklemek için kullanılmıştır.
+
+
+
+
 
 ## 	✨ Özellikler
 
@@ -140,3 +144,26 @@ Testleri çalıştırmak için terminali açarak aşağıdaki komutu çalıştı
 - **flutter_test:** Flutter'ın yerleşik test çerçevesi kullanılarak birim ve widget testleri yazılmıştır.
 
 - **shared_preferences (Mock):** SharedPreferences'ın mock versiyonu kullanılarak veri saklama ve yükleme işlemleri test edilmiştir.
+
+## 📸 Ekran Görüntüleri
+
+### 🌞 Açık Tema
+
+<div style="display: flex; flex-wrap: wrap; gap: 10px;">
+  <img src="https://drive.google.com/uc?export=view&id=1wBl46OUlIbHHyKf8gZabkxXTlsfjUwIP" width="150"/>
+  <img src="https://drive.google.com/uc?export=view&id=14CvjSuYCivs7c6D-rxIoxadNbXXkHham" width="150"/>
+  <img src="https://drive.google.com/uc?export=view&id=1aBaX6KmIPgFi2kfW9tRck825iiSEL-U4" width="150"/>
+  <img src="https://drive.google.com/uc?export=view&id=136cmWk_ord9oV0gvcDFjDRjJpzB8TUoH" width="150"/>
+  <img src="https://drive.google.com/uc?export=view&id=1g5nUKqS2j2xsK8977NWL14tDorkreMTs" width="150"/>
+</div>
+
+### 🌙 Koyu Tema
+
+<div style="display: flex; flex-wrap: wrap; gap: 10px;">
+  <img src="https://drive.google.com/uc?export=view&id=178sAZlV69x08iNas2vHU9GRCe5cWV3S8" width="150"/>
+  <img src="https://drive.google.com/uc?export=view&id=1CEpiVWpF72eSRqLRTqV2gkg-uAQuS_Fm" width="150"/>
+  <img src="https://drive.google.com/uc?export=view&id=1zpDto3aEC2MsMH2vVbXowmNef63Q79Bl" width="150"/>
+  <img src="https://drive.google.com/uc?export=view&id=1tLHnKa2gy5t_F6r4Iud6L64w5MThD96v" width="150"/>
+  <img src="https://drive.google.com/uc?export=view&id=1d3lJczA60HF6tTf6DQItOtNSjMHvuGR5" width="150"/>
+</div>
+
