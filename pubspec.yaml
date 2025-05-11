@@ -1,0 +1,56 @@
+name: vpn_app
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  flutter_riverpod: ^2.6.1
+  intl: ^0.19.0
+  flutter_svg: ^2.1.0
+  lottie: ^3.3.1
+  shared_preferences: ^2.5.3
+  flutter_launcher_icons: ^0.14.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/app.png"
+
+flutter:
+  uses-material-design: true
+  generate: true
+  assets:
+    - assets/flags/
+    - assets/icons/
+    - assets/images/
+    - assets/fonts/
+    - assets/langs/
+    - assets/animations/
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins/Poppins-Regular.ttf
+        - asset: assets/fonts/Poppins/Poppins-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Poppins/Poppins-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Poppins/Poppins-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Poppins/Poppins-Italic.ttf
+          style: italic
